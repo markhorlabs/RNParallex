@@ -12,7 +12,7 @@
 
 ## Installation
 ```bash
-$ npm i react-native-parallax-header --save
+$ npm i https://github.com/markhorlabs/RNParallex/tarball/master
 ```
 ## Demo
 ### iPhone X or XS (Using `alwaysShowTitle={false}` & `alwaysShowNavBar={false}`)
