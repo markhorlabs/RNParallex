@@ -1,18 +1,14 @@
 
 # RNParallax (react-native-parallax-header)
-[![GitHub stars](https://img.shields.io/github/stars/kyaroru/RNParallax.svg)](https://github.com/kyaroru/RNParallax/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/kyaroru/RNParallax.svg)](https://github.com/kyaroru/RNParallax/network)
-[![GitHub issues](https://img.shields.io/github/issues/kyaroru/RNParallax.svg)](https://github.com/kyaroru/RNParallax/issues)
 
-[![NPM](https://nodei.co/npm/react-native-parallax-header.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-parallax-header/)
+- This npm package is update to the [Original Package](https://www.npmjs.com/package/react-native-parallax-header) with few more customizations.
 
-- A react native scroll view component with Parallax header :p
-- Inspired by [GitHub - jaysoo/react-native-parallax-scroll-view](https://github.com/jaysoo/react-native-parallax-scroll-view)
-- Code is based on [React Native ScrollView animated header – App & Flow – Medium](https://medium.com/appandflow/react-native-scrollview-animated-header-10a18cb9469e) and added little customisation :p
 
 ## Installation
 ```bash
-$ npm i https://github.com/markhorlabs/RNParallex/tarball/master
+$ npm i https://github.com/markhorlabs/RNParallex/tarball/main
+$ yarn add https://github.com/markhorlabs/RNParallex/tarball/main
+
 ```
 ## Demo
 ### iPhone X or XS (Using `alwaysShowTitle={false}` & `alwaysShowNavBar={false}`)
@@ -148,6 +144,7 @@ export default App;
 | `headerMaxHeight` | `number` | No | This is the header maximum height | Default to `170` |
 | `headerMinHeight` | `number` | No | This is the header minimum height | Default to common ios & android navbar height (have support for iPhone X too :p) |
 | `backgroundImage` | `image source` | No | This renders the background image of the header (**if specified, background color will not take effect**) | Default to `null` |
+| `minImageOpacity` | `number (0-1)` | No | Opacity of Image when header is at minimum height | Default is `0` |
 | `backgroundImageScale` | `number` | No | This is the image scale - either enlarge or shrink (after scrolling to bottom & exceed the headerMaxHeight) | Default is `1.5` |
 | `backgroundColor` | `string` | No | This is the color of the parallax background (before scrolling up), **will not be used if `backgroundImage` is specified** | Default color is `#303F9F` |
 | `extraScrollHeight` | `number` | No | This is the extra scroll height (after scrolling to bottom & exceed the headerMaxHeight) | Default is `30` |

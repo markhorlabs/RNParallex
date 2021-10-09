@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyaroru/RNParallax.git"
+    "url": "git+https://github.com/markhorlabs/RNParallax.git"
   },
   "keywords": [
     "parallax",
@@ -19,7 +19,7 @@
   "author": "Chiew Carol",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kyaroru/RNParallax/issues"
+    "url": "https://github.com/markhorlabs/RNParallex/issues"
   },
-  "homepage": "https://github.com/kyaroru/RNParallax#readme"
+  "homepage": "https://github.com/markhorlabs/RNParallex#readme"
 }
