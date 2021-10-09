@@ -1,7 +1,7 @@
 
 # RNParallax (react-native-parallax-header)
 
-- This npm package is update to the [Original Package](https://www.npmjs.com/package/react-native-parallax-header) with few more customizations.
+- This npm package is update to this [Original NPM Module](https://www.npmjs.com/package/react-native-parallax-header) with few extra customizations for developer.
 
 
 ## Installation
